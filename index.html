@@ -12,11 +12,15 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!--  -->
+    
     <div class="container">
         <button id="button">Tell Me A Joke</button>
-        <audio hidden controls class="audio"></audio>
+        <audio id="audio" controls hidden></audio>
+        <div class="text-container" id="text-container">
+            <div class="text" id="text"></div>
+        </div>
     </div>
+
     <!-- Script -->
     <script src="voiceRSS.js"></script>
     <script src="script.js"></script>
